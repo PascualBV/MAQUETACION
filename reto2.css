@@ -1,0 +1,77 @@
+.title
+{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 40px;
+}
+
+.fondo
+{
+    background-color: rgb(160, 41, 41); 
+}
+
+.foto
+{
+    margin-left: 100px;
+}
+
+.yo
+{   
+    margin-left: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+.yo2
+{
+    margin-left: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.letras
+{
+    font-size: 20px;
+    margin-left: 400px;
+}
+
+
+h2
+{
+    margin-left: 375px;
+}
+
+.prueba
+{
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+
+.aficiones
+{
+    font-size: 20px;
+    margin-left: 400px;
+}
+
+/* ------------PAGINA DE AFICIONES---------------*/
+
+.fotonam
+{
+    width: 500px;
+    height: 400px;
+    padding: 50px;
+}
+
+.posicion
+{
+    display:flex;
+    text-align: center;
+    align-content: center;
+}
+
+.volver
+{
+    font-size: 30px;
+}
