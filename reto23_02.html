@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3003d5d236.js" crossorigin="anonymous"></script>
+    <script src="reto.js"></script>
+    <link rel="stylesheet" href="reto.css">
+    
+    <header class="header">
+
+        <img src="logo.png" alt="logo halcón viajes">
+        <a href="" class="pad">Vacaciones</a>
+        <p class="pad">Vuelos</p>
+        <p class="pad">Agencias</p>
+        <p class="pad">Contacta con nosotros</p>
+        <p class="pad">Inicia sesión</p>
+        <p class="pad">900 80 20 20</p>
+
+    </header>
+
+</head>
+
+<body>
+
+    <div class="row1">
+
+        <div class="row2">
+
+            <p class="letras">Consulta aquí nuestro listado de agencias abiertas y los detalles de <a href="" class="reap">reapertura y medidas de seguridad</a></p>
+            
+        </div>
+
+    </div>
+
+    <div class="row1"> 
+
+        <img src="soñar.png" alt="img soñar=viajar">
+    
+    </div>
+
+    <div class="column">
+
+        <div>
+
+            <p class="tuvuelo">Tu vuelo más hotel al mejor precio</p>
+
+        </div>
+
+        <form action="" class="row1">
+
+            <div>
+
+                <input id="desde" type="text" placeholder="Desde" class="box">
+                <input id="hacia" type="text" placeholder="Hacia"class="box">
+                <input id="date" type="date" placeholder="Elige tus fechas" class="boxdate">
+                <input id="numero" type="number" placeholder="¿Cuántos pasajeros?" class="boxpasajeros">
+
+            </div>
+
+                <button type="button" onclick="recogerDatos()" class="boton">Buscar         <i class="fas fa-search"></i></button>
+
+        </form>
+
+    </div>
+
+    <div class="header">
+    
+        <p class="pad">Aquí tiene la información de su reserva</p>
+        <h2 class="tusdatos" id="reserva"></h2>
+
+    </div>
+    
+    <div class="row1">
+    
+        <button type="button" onclick="filtrar()" class="boton">Filtrar R        <i class="fas fa-search"></i></button>
+
+    </div>
+
+    <div class="header">
+    
+        <p class="pad">Contienen la R</p>
+        <h2 class="tusdatos" id="filtro"></h2>
+
+    </div>
+</body>
+</html>
