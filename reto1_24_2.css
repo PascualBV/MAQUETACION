@@ -1,0 +1,148 @@
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.column1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position:relative;
+    top: 47px;
+}
+
+.column2
+{
+    background-color: white;
+    width: 400px;
+    height: 380px;
+    margin-left: 30px;
+    border-radius: none;
+    border-color: rgb(201, 196, 196);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.form
+{
+    width:300px;
+    height: 40px;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+
+.boton
+{
+    margin-top: 10px;
+    width:309px;
+    height: 38px;
+    background-color: #0095F6;
+    color:white;
+    border-radius: 5px;
+}
+
+.igl
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.igl2
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    font-size: 17px;
+}
+
+.igbox1
+{
+    margin: auto;
+    margin-top: 20px;
+    height: 2px;
+    width: 100px;
+    background-color: rgb(201, 196, 196);
+}
+
+.igboxO
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position:relative;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(163, 157, 157); ;
+}
+
+.igbox2
+{
+    margin: auto;
+    margin-top: 20px;
+    height: 2px;
+    width: 100px;
+    background-color: rgb(201, 196, 196);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.box
+{
+    background-color: white;
+    width: 400px;
+    margin-left: 30px;
+    border-radius: none;
+    border-color: rgb(201, 196, 196);
+    border-style: solid;
+    border-width: 1px;
+    margin-right:31px;
+    margin-top: 30px;
+}
+
+#foto
+{
+    width: 375px;
+}
+
+@media screen and (max-width:755px)
+{
+    #ocultar
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width:440px)
+{
+    #ocultar2
+    {
+        border: none;
+    }
+    #ocultar3
+    {
+        border:none;
+    }
+}
